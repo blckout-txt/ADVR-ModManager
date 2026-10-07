@@ -1,0 +1,38 @@
+# .NET and Android build output
+**/bin/
+**/obj/
+**/artifacts/
+*.apk
+*.aab
+*.apks
+*.dex
+*.class
+*.pdb
+*.mdb
+*.log
+*.binlog
+*.tmp
+
+# IDE and local machine files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.sln.iml
+.DS_Store
+Thumbs.db
+
+# Local signing material and secrets
+*.keystore
+*.jks
+*.p12
+secrets.json
+local.properties
+
+# Android/Gradle generated state
+.gradle/
+captures/
+.externalNativeBuild/
+.cxx/
